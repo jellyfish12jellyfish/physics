@@ -7,6 +7,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/favicon.ico">
 </head>
 
 <body>
@@ -44,10 +45,10 @@
                     <img src="img/rocket.svg" alt="">
                 </div>
                 <div class="page2-text">
-                    <div><a href="">Радиоволны и видимое излучение </a></div>
-                    <div><a href="">Инфракрасное излучение </a></div>
-                    <div><a href="">Ультрафиолетовое излучение </a></div>
-                    <div><a href="">Рентгеновские лучи</a></div>
+                    <div><a href="#radio">Радиоволны и видимое излучение </a></div>
+                    <div><a href="#infra">Инфракрасное излучение </a></div>
+                    <div><a href="#ultra">Ультрафиолетовое излучение </a></div>
+                    <div><a href="#rent">Рентгеновские лучи</a></div>
                 </div>
             </div>
 
@@ -55,7 +56,7 @@
     </section>
 
     <section class="fullscreen page3">
-        <div class="fullscreen__body">
+        <div class="fullscreen__body" id="radio">
             <div class="body3">
                 <div class="page3-title">Радиоволны</div>
                 <div class="page3-text">
@@ -165,7 +166,7 @@
     </section>
 
     <section class="fullscreen page4">
-        <div class="fullscreen__body">
+        <div class="fullscreen__body" id="infra">
             <div class="body4">
                 <div class="page3-title">
                     Инфракрасное излучение
@@ -236,7 +237,7 @@
                     </div>
                 </div>
 
-    
+
                 <iframe width="700px" height="400px" src="https://www.youtube.com/embed/lywIgJ7TicM">
                 </iframe>
             </div>
@@ -250,7 +251,7 @@
     <section class="fullscreen page5">
 
         <div class="fullscreen__body">
-            <div class="body5">
+            <div class="body5" id="ultra">
                 <div class="page3-title">УЛЬТРАФИОЛЕТОВОЕ ИЗЛУЧЕНИЕ</div>
                 <div class="page3-text2">
                     <div><span class="bold"> УЛЬТРАФИОЛЕТОВОЕ ИЗЛУЧЕНИЕ</span> (ультрафиолетовые лучи, УФ-излучение) -
@@ -313,13 +314,112 @@
     </section>
 
     <section class="fullscreen page4">
-        <div class="fullscreen__body">
+        <div class="fullscreen__body" id="rent">
+            <div>
+                <div class="page3-title">Рентгеновские лучи</div>
+                <div class="page3-text2">
+                    <div>
+                        <h5 class="center">Свойства рентгеновских лучей</h5>
 
+                        <p>Лучи, открытые Рентгеном, действовали на фотопластинку, вызывали ионизацию воздуха, но
+                            заметным
+                            образом не отражались от каких-либо веществ и не испытывали преломления. Электромагнитное
+                            поле
+                            не оказывало никакого влияния на направление их распространения.
+                        </p><br>
+                        <p>
+                            Сразу же возникло предположение, что рентгеновские лучи — это электромагнитные волны,
+                            которые
+                            излучаются при резком торможении электронов. Большая проникающая способность рентгеновских
+                            лучей
+                            и прочие их особенности связывались с малой длиной волны. Но эта гипотеза нуждалась в
+                            доказательствах, и доказательства были получены спустя 15 лет после смерти Рентгена.
+                        </p><br>
+
+                        <h5 class="center">Дифракция рентгеновских лучей
+                        </h5>
+                        <p>Если рентгеновское излучение представляет собой электромагнитные волны, то оно должно
+                            обнаруживать дифракцию — явление, присущее всем видам волн. Сначала пропускали рентгеновские
+                            лучи через очень узкие щели в свинцовых пластинках, но ничего похожего на дифракцию
+                            обнаружить
+                            не удавалось. <br><br> Немецкий физик Макс Лауэ предположил, что длина волны рентгеновских
+                            лучей слишком
+                            мала, для того чтобы можно было обнаружить дифракцию этих волн на искусственно созданных
+                            препятствиях. <br><br>Ведь нельзя сделать щели размером 10<sup>-8</sup> см, поскольку таковы
+                            размеры самих атомов.
+                            А что, если рентгеновские лучи имеют примерно такую же длину волны? Тогда остается
+                            единственная
+                            возможность — использовать кристаллы. Они представляют собой упорядоченные структуры, где
+                            расстояния между отдельными атомами по порядку величины равны размерам самих атомов, т. е.
+                            10 <sup>-8</sup> <br><br>
+                            <img id="img" class="z-depth-2"
+                                src="http://class-fizika.ru/images/10_11_class/11-4/97.2.jpg" alt="">
+                            см. Кристалл с его периодической структурой и есть то естественное устройство, которое
+                            неизбежно
+                            должно вызвать заметную дифракцию волн, если их длина волны близка к размерам атомов. И вот
+                            узкий пучок рентгеновских лучей был направлен на кристалл, за которым располагалась
+                            фотопластинка. Результат полностью согласовался с самыми оптимистическими ожиданиями! Наряду
+                            с
+                            большим центральным пятном, которое давали лучи, распространяющиеся по прямой, возникли
+                            регулярно расположенные небольшие пятнышки вокруг центрального пятна. Появление этих
+                            пятнышек
+                            можно было объяснить только дифракцией рентгеновских лучей на упорядоченной структуре
+                            кристалла.
+                        </p>
+                        <br>
+                        <p>Исследование дифракционной картины позволило определить длину волны рентгеновских лучей. Она
+                            оказалась меньше длины волны ультрафиолетового излучения и по порядку величины была равна
+                            размерам атома.</p>
+
+                        <br>
+                    </div>
+                </div>
+            </div>
+
+            <iframe width="700px" height="400px" src="https://www.youtube.com/embed/Mc76b51lhKY">
+            </iframe>
+
+            <div class="more z-depth-3">
+                <i class="material-icons">arrow_upward</i>
+                <div>Более подробно</div>
+            </div>
         </div>
     </section>
 
+    <footer class="fullscreen footer">
+        <div class="fullscreen__body">
+            <h5>Отправить почту</h5>
 
 
+            <div class="row">
+                <form class="col s12" action="https://formspree.io/meqrgepb" method="POST">
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <i class="material-icons prefix">account_circle</i>
+                            <input id="icon_prefix" type="text" class="validate" name="name">
+                            <label for="icon_prefix">Ваше имя</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <i class="material-icons prefix">mail</i>
+                            <input id="icon_telephone" type="email" class="validate" name="email">
+                            <label for="icon_telephone">Почта</label>
+                        </div>
+                        <div class="input-field col s12">
+                            <i class="material-icons prefix">edit</i>
+                            <textarea id="textarea1" class="materialize-textarea" name="message"></textarea>
+                            <label for="textarea1">Сообщение</label>
+                          </div>
+                          <button class="btn waves-effect waves-light" type="submit">Submit
+                            <i class="material-icons right">send</i>
+                          </button>
+                    </div>
+
+                </form>
+            </div>
+
+
+        </div>
+    </footer>
 
     <button onclick="topFunction()" id="myBtn" title="верх">Разделы</button>
 

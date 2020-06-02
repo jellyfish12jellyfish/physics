@@ -9,13 +9,11 @@
 
 html,
 body {
-    /*height: 100%;*/
     background-color: #333;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     color: #fff;
     font-size: 20px;
 }
-
 
 .wrapper {
     min-height: 100vh;
@@ -53,7 +51,6 @@ body {
     font-size: 1.2em;
 }
 
-
 .theme {
     padding: 0 20px;
     color: #fff;
@@ -72,7 +69,6 @@ body {
 }
 
 .gh {
-    /* border: 1px solid red; */
     background-color: #eb7d4b;
     color: white;
     text-transform: uppercase;
@@ -117,8 +113,6 @@ body {
     line-height: 30px;
     letter-spacing: 4px;
 }
-
-.page2-subtitle {}
 
 .border {
     width: 88px;
@@ -244,8 +238,8 @@ img {
 }
 
 #img{
-    width: 10px;
-    height: 20px;
+    width: 200px;
+    height: 180px;
 }
 iframe{
     margin: 0 auto;
@@ -263,4 +257,8 @@ iframe{
     font-weight: bold;
     align-items: center;
     align-self: center;
+}
+
+.footer{
+    background-color: #3c5499;
 }
