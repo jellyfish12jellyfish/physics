@@ -250,3 +250,17 @@ img {
 iframe{
     margin: 0 auto;
 }
+.more{
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 12px;
+    border: none;
+    background-color: #17c2a4;
+    margin: 20px auto;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    align-items: center;
+    align-self: center;
+}
