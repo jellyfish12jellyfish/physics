@@ -22,7 +22,7 @@
 
     function loadData() {
         return new Promise((resolve, reject) => {
-            setTimeout(resolve, 500);
+            setTimeout(resolve, 200);
         })
     }
 
